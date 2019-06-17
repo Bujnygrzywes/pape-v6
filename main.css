@@ -24,14 +24,14 @@ main {
 
 .navbar {
   background-color: chocolate;
-  height: 60px;
+  height: 70px;
   display: flex;
   align-items: center;
 }
 
 .footer {
   background-color: #009900;
-  height: 70px;
+  height: 60px;
   display: flex;
   align-items: center;
 }
@@ -85,7 +85,7 @@ a {
   justify-content: center;
   align-items: center;
   margin-right: 0px;
-  padding: 12px;
+  padding: 8px;
   border-radius: 16px;
 }
 
