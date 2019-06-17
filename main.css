@@ -25,12 +25,14 @@ main {
   height: 70px;
   display: flex;
   align-items: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-.footer {`
+.footer {
   height: 60px;
   display: flex;
   align-items: center;
+  box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.12), 0 -1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .container {
@@ -42,7 +44,7 @@ main {
 .title {
   padding: 20px;
   text-align: center;
-  color: #638D46
+  color: #638d46;
 }
 
 .info {
@@ -53,7 +55,6 @@ main {
 .picture,
 .description {
   padding: 20px;
-  back
 }
 
 .click2 {
@@ -61,8 +62,8 @@ main {
 }
 
 a {
-  background-color: #638D46;
-  box-shadow: 0 5px 0 darkred;
+  background-color: #638d46;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   color: white;
   padding: 1em 1.5em;
   position: relative;
@@ -71,7 +72,7 @@ a {
 }
 
 a:hover {
-  background-color: #ce0606;
+  background-color: #4a6835;
 }
 
 a:active {
