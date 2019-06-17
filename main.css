@@ -10,7 +10,6 @@ main {
 main {
   display: flex;
   flex-direction: column;
-  background-color: brown;
 }
 
 .container1 {
@@ -23,14 +22,12 @@ main {
 }
 
 .navbar {
-  background-color: chocolate;
   height: 70px;
   display: flex;
   align-items: center;
 }
 
-.footer {
-  background-color: #009900;
+.footer {`
   height: 60px;
   display: flex;
   align-items: center;
@@ -45,7 +42,7 @@ main {
 .title {
   padding: 20px;
   text-align: center;
-  color: #000000;
+  color: #638D46
 }
 
 .info {
@@ -56,6 +53,7 @@ main {
 .picture,
 .description {
   padding: 20px;
+  back
 }
 
 .click2 {
@@ -63,7 +61,7 @@ main {
 }
 
 a {
-  background-color: red;
+  background-color: #638D46;
   box-shadow: 0 5px 0 darkred;
   color: white;
   padding: 1em 1.5em;

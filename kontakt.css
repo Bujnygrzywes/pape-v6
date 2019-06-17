@@ -10,7 +10,6 @@ main {
 main {
   display: flex;
   flex-direction: column;
-  background-color: brown;
 }
 
 .container1 {
@@ -23,14 +22,12 @@ main {
 }
 
 .navbar {
-  background-color: chocolate;
   height: 70px;
   display: flex;
   align-items: center;
 }
 
 .footer {
-  background-color: #009900;
   height: 60px;
   display: flex;
   align-items: center;
