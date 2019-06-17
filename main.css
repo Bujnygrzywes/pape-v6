@@ -39,6 +39,7 @@ main {
 .container {
   width: 800px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .title {
@@ -95,5 +96,4 @@ img {
 
 .kontakt {
   margin-right: 60px;
-  align-items: center;
 }
