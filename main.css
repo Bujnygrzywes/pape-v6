@@ -1,5 +1,6 @@
 :root {
-  --main-color: #638d46;
+  --main-color: darkorchid;
+  --second-color: darkmagenta;
 }
 
 html,
@@ -68,7 +69,7 @@ main {
 }
 
 a {
-  background-color: #638d46;
+  background-color: var(--main-color);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   color: white;
   padding: 1em 1.5em;
@@ -79,7 +80,7 @@ a {
 }
 
 a:hover {
-  background-color: #4a6835;
+  background-color: var(--second-color);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
@@ -99,10 +100,6 @@ a {
 
 img {
   border-radius: 5px;
-}
-
-.kontakt {
-  margin-right: 60px;
 }
 
 .slideDown {
@@ -162,6 +159,13 @@ img {
 }
 
 .description p {
-  color: black
+  color: black;
 }
 
+.wrapper {
+  display: flex;
+}
+
+.kontakt {
+  margin: 0 10px;
+}
