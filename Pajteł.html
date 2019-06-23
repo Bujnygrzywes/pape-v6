@@ -27,11 +27,24 @@
               <a href="Łojtu.html">Łojtu</a>
             </div>
             <div class="kontakt">
-              <a href="Papeł.html">Paweł</a>
+              <a href="Papeł.html">Papeł</a>
             </div>
           </div>
         </div>
       </div>
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="kontakt2">
+          <a href="Papeł.html">Papeł</a>
+          <a href="Łojtu.html">Łojtu</a>
+        </div>
+      </div>
+
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()"
+        >&#9776; open</span>
 
       <div class="content">
         <div class="container">
@@ -67,6 +80,15 @@
         </div>
       </div>
     </main>
-    <!-- <script src="js/scripts.js"></script> -->
+    <script src="js/scripts.js"></script>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
   </body>
 </html>
